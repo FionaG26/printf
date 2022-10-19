@@ -3,6 +3,7 @@ Team project created by:Michelle Wangari & Fiona Githaiga
  
 Description: 
 Printf : Writes formatted output to stdout
+
 function format string is a character string, beginning and ending in its initial shift state, if any. These arguments are placed using the percentage '%' operator
 
 Format control string
@@ -19,16 +20,27 @@ an optional precision specification in the form of a period (.), followed by a
 
 Specifier	Output
 c	Character
+
 d or i	Signed integer
+
 s	String of characters
+
 b	Binary Representation of unsigned integer
+
 u	Unsigned integer
+
 o	Unsigned octal
+
 x	Unsigned hexadecimal integer
+
 X	Unsigned hexadecimal integer (uppercase)
+
 S	String with hex-ascii value replacing special chars
+
 p	Pointer address
+
 r	Reversed string of characters
+
 R	ROT13 Translation of string
 
 
@@ -41,12 +53,16 @@ The valid format control flags are:
 Flag	Description
 -
 Left-justify the formatted item within the field; normally, items are right-justified.
+
 +
 Always start a signed, positive object with a plus character (+); normally, only negative items begin with a sign.
+
 space
 Always start a signed, positive object with a space character; if both + and a space are specified, + overrides the space.
+
 #
 Used with o, x or X specifiers the value is preceeded with 0, 0x or 0X respectively for values different than zero.
+
 0	
 Left-pads the number with zeroes (0) instead of spaces when padding is specified (see width sub-specifier).
 
@@ -54,23 +70,41 @@ Left-pads the number with zeroes (0) instead of spaces when padding is specified
 Files contained in this repository
 
 main.h - contains type struct, standard libraries and custom prototypes.
+
 _putchar.c- contains the putchar function
+
 _printf.c - contains printf file
+
 man_3_printf - contains man page
+
 printf_37.c	Contains percentage print function.
+
 printf_int.c	Contains decimal and integer functions.
+
 printf_char.c	Custom function for char data type.
+
 printf_sting.c	Function that calls string type variable.
+
 printf_bin.c	Function that gets the binary
+
 printf_oct.c	Functions that returns octal number.
+
 printf_hex.c	Calls hexadecimal numbers (lowercase).
+
 printf_HEX.c	Calls hexadecimal numbers (Uppercase).
+
 printf_unsigned.c	Returns an unisgined data type.
+
 printf_hex_aux.c	Auxiliar function for hexadecimal specific functions (lowercase).
+
 printf_HEX_aux.c	Auxiliar function hexadecimal specific functions (Uppercase).
+
 printf_exclusive_string.c	Returns a string and non readable characters are printed in hexadecimal numbers (Lowercase).
+
 printf_srev.c	Returns a string in reverse.
+
 printf_rot13.c	Returns a string in Rot13.
+
 printf_str.c	Auxiliar functions such as strlen and strcpy.
 
 Tasks required for this project
