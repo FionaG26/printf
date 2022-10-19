@@ -1,10 +1,11 @@
-printf
+0x11 c printf
 
 Description
 
 
 
-The printf function sends formatted output to stdout. A custom _printf() for learning purposes was developed by cohort #9 students Fiona Githaiga & Michelle Wangari
+The printf function sends formatted output to stdout.
+Team project created by  Fiona Githaiga & Michelle Wangari
  _printf() function format string is a character string, beginning and ending in its initial shift state, if any. These arguments are placed using the percentage '%' operator
 
 
@@ -42,16 +43,15 @@ Use & Examples
 
 
 Prototype: int _printf (const char *format, ...); Use - General: _printf("format string", var1, var2, ...);
-
 Examples:
 
 Examples:
 
-Basic String: _printf("%s Holberton", "Hello");`
+Basic String: _printf("%s Holberton", "Hello");`
 
 oOutput: Hello Holberton
 
-Print integers: _printf("This is an array element: arr[%d]:%c", 32, arr[32]);`
+Print integers: _printf("This is an array element: arr[%d]:%c", 32, arr[32]);`
 
 oOutput: This is an array element arr[32]:A
 
@@ -119,7 +119,7 @@ Precision (In development...)
 
 .(number)	For integer specifiers (d, i, o, u, x, X): precision specifies the minimum number of digits to be written. If the value to be written is shorter than this number, the result is padded with leading zeros. The value is not truncated even if the result is longer. A precision of 0 means that no character is written for the value 0. For s: this is the maximum number of characters to be printed. By default all characters are printed until the ending null character is encountered. If the period is specified without an explicit value for precision, 0 is assumed.
 
-Lenght modifiers (In development...)
+Length modifiers (In development...)
 
 Modifier/Specifier	d & i	u, o, x, X	c	s	p
 
