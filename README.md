@@ -139,7 +139,7 @@ Name	Information	Relevant Files
 
 man_3_printf	Man page of the _printf() function.	None
 
-holberton.h	Header file with the data type struct, standard libraries and custom prototypes.	*.c compilation
+main.h	Header file with the data type struct, standard libraries and custom prototypes.	*.c compilation
 
 _printf.c	Main printf function file. Calls other functions.	printf_(name of var).c file
 
