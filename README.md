@@ -134,49 +134,33 @@ l	long int	unsigned long int
 
 Files contained in this repository
 
+README file
 
 man_3_printf	Man page of the _printf() function.
 
-main.h	Header file with the data type struct, standard libraries and custom prototypes.
+main.h	Header file with the data type struct, standard libraries and custom prototypes
 
-_printf.c	Main printf function file. Calls other functions.
+funcs.c
 
-printf_37.c	Contains percentage print function.	
+funcs1.c
 
-printf_int.c	Contains decimal and integer functions.	
+get_flags.c
 
-printf_char.c	Custom function for char data type.	
+get_precision.c
 
-printf_sting.c	Function that calls string type variable.
+get_size.c
 
-printf_bin.c	Function that gets the binary.
+handle_print.c
 
-printf_oct.c	Functions that returns octal number.	
+utils.c
 
-printf_hex.c	Calls hexadecimal numbers (lowercase).	
-
-printf_HEX.c	Calls hexadecimal numbers (Uppercase).	
-
-printf_unsigned.c	Returns an unisgined data type.	
-
-printf_hex_aux.c	Auxiliar function for hexadecimal specific functions (lowercase).	
-
-printf_HEX_aux.c	Auxiliar function hexadecimal specific functions (Uppercase).	
-
-printf_exclusive_string.c  Returns a string and non readable characters are printed in hexadecimal numbers (Lowercase).	
-
-printf_srev.c	Returns a string in reverse.
-
-printf_rot13.c	Returns a string in Rot13.	
-
-printf_str.c	Auxiliar functions such as strlen and strcpy.
-
-_putchar.c	Custom putchar function.	
+write_handlers.c
 
 
 
 Tasks required for this project
 
+Mandatory
 
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life 
  Write a function that produces output according to a format.
@@ -186,6 +170,8 @@ Tasks required for this project
 1. Education is when you read the fine print. Experience is what you get if you don't 
 Handle the following conversion specifiers:
 d, i
+
+Advanced
 
 2. With a face like mine, I do better in print
 Handle the following conversion specifiers:
